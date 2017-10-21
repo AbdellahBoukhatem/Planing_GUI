@@ -1,0 +1,102 @@
+.background{
+	-fx-background-color : #1a1a1a;
+}
+
+.background2{
+	-fx-background-color : #262626;
+	-fx-effect: innershadow(gaussian, white, 0.1, 1, 0, 0);
+}
+
+
+.background3{
+	-fx-background-color : linear-gradient(to right, black, white);
+}
+
+.sideBar-background {
+	-fx-border-radius: 10px;
+	-fx-border-style: none;
+	-fx-opacity: 0.9;
+	-fx-background-color : linear-gradient(to right, black, white);
+}
+
+.side-bar-element{
+	-fx-background-color: transparent;
+	-fx-border-radius: 5px;
+	-fx-border-style: solid line-cap square;
+	-fx-border-width: 1px;
+	-fx-opacity: 0.5;
+}
+
+.side-bar-button{
+	-fx-background-color: transparent;
+	-fx-border-radius: 5px;
+	-fx-border-style: solid line-join round;
+	-fx-border-width: 1px;
+	-fx-opacity: 1;
+}
+
+
+.side-bar-button:hover{
+	-fx-background-color: transparent;
+	-fx-border-radius: 5px;
+	-fx-border-style: solid line-join round;
+	-fx-border-width: 1px;
+	-fx-opacity: 0.5;
+	-fx-effect: dropshadow(one-pass-box, blueviolet, 7, 1, 0, 0);
+}
+
+.split-pane:horizontal .split-pane-divider{
+	-fx-background-color: transparent;
+}
+
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    /* if outer border should be 10 radius */
+    /*
+    -fx-background-color: grey;
+    -fx-background-radius: 7 7 0 0;
+    *
+    */
+}
+
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    /* if outer border should be 10 radius */
+    -fx-border-color: transparent;
+}
+
+
+.tab-pane > .tab-header-area > .headers-region > .tab{
+    /* if outer border should be 10 radius */
+    /*
+    -fx-background-radius: 10 10 0 0, 5 5 0 0, 0 0 0 0;
+    -fx-border-color: transparet;
+    -fx-background-color: transparent;
+    *
+    */
+}
+
+
+/*
+.tab-pane{
+	-fx-open-tab-animation:grow;
+}
+
+.tab-pane:top{
+	-fx-open-tab-animation:grow;
+	-fx-border-radius: 20px;
+}
+
+.tab-pane > .tab-header-area > .tab {
+	-fx-border-radius: 20px;
+}
+
+.tab-pane:top .tab-header-area .tab-header-background{
+	-fx-background-color: grey;
+}
+
+
+.tab-pane:top .tab{
+	-fx-border-radius: 25;
+}
+* */
